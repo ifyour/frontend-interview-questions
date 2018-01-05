@@ -323,15 +323,14 @@ console.log('script end')
 * 写一个过滤 HTML 危险字符(`<`, `>` 等..)的函数.
 * [按数组中的属性查找元素](https://gist.github.com/starandtina/267f2935c2f3f1553ee5).
 
-## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
+## <a name='algorithms'>算法/数据结构/计算机基础相关</a>
 
-> Algorithm is at the heart of every nontrivial computer application, and algorithmic is a modern and active area of computer science. Every computer scientist and every professional programmer should know about the basic algorithmic toolbox: structures that allow efficient organization and retrieval of data, frequently used algorithms, and basic techniques for modeling, understanding and solving algorithmic problems and our expectation of
-event candidates is that they are very strong in this area.
+> 算法是每一个计算机应用的核心, 并且算法是目前计算机科学领域中比较活跃的一部分. 每一个计算机科学家和专业的程序员都应该掌握的基本的算法: 经常使用算法有效的组织和检索数据结构, 以及数据建模, 理解并解决各种算法问题. 我们期望所面试的候选人在这方面是非常擅长的.
 
-* Merge sort has a complexity of O(n*log n), making it one of the more efficient sorting algorithms available, also it's a stable sort. That's why Firefox and Safari use merge sort for their implementation of `Array.prototype.sort()`. Please implement `Array.prototype.sort()` using merge sort.
-* Binary search implementation in JavaScript.
-* Define a function that returns n lines of [Pascal’s Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle).
-* Use recursion to log a Fibonacci sequence of n length. (Notice: only need to log instead of calculating the result)
+* 合并排序 (Merge sort) 的时间复杂度是 O(n*log n), 它是一种有效且稳定的排序算法之一. 这也是 Firefox 和 Safari 使用合并排序来实现 `Array.prototype.sort()` 的原因. 请你使用合并排序来实现 `Array.prototype.sort()` 的功能.
+* 使用 JavaScript 实现一个二分法搜索(Binary search).
+* 使用 JavaScript 实现一个函数, 它返回一个 n 条边的帕斯卡三角[Pascal’s Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle).
+* 使用递归记录一个长度为 n 的斐波那契数列.(注意：只需要记录而不是计算结果)
 
   ~~~JavaScript
   function fib(depth, n1, n2) {
@@ -340,7 +339,7 @@ event candidates is that they are very strong in this area.
     fib(depth-1, n2, n1 + n2);
   }
   ~~~
-* How to find the longest word in a string with JavaScript?
+* 使用 JavaScript 查找一个字符串中长度最长的单词?
 
   ~~~JavaScript
   "The quick brown fox jumped over the lazy dog".split(' ').sort(function (a, b) {
