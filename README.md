@@ -1,116 +1,114 @@
-A curated list of frontend interview questions.
+一份前端面试问题清单.
 
-# Table of Contents
+# 目录
 
-  1. [General Questions/Ice Breaker](#general)
-  1. [Management Questions](#management)
-  1. [JavaScript Questions](#javascript)
-  1. [HTML Questions](#html)
-  1. [CSS Questions](#css)
-  1. [HTTP Questions](#http)
-  1. [Problem Solving Questions](#problem-solving)
-  1. [Algos, Data Structures, & Computer Science Fundamentals Questions](#algorithms)
-  1. [General Evaluation Questions](#general-evaluation-questions)
-  1. [React](#react)
+  1. [常规问题/破冰](#general)
+  1. [管理相关](#management)
+  1. [JavaScript 相关](#javascript)
+  1. [HTML 相关](#html)
+  1. [CSS 相关](#css)
+  1. [HTTP 相关](#http)
+  1. [处理问题能力相关](#problem-solving)
+  1. [算法/数据结构/计算机基础相关](#algorithms)
+  1. [快速评估](#general-evaluation-questions)
+  1. [React 相关](#react)
 
 ----
 
-## <a name='general'>General/Ice Breaker</a>
+## <a name='general'>常规问题/破冰</a>
 
-> You're looking for passion and enthusiasm when a candidate discusses their previous projects and any projects they're working on in their spare time. If they get excited talking about these things, they show the kind of passion for software development that is a good indicator of whether they're capable of meeting your bar.
-Once you've calmed a nervous candidate's nerves or determined level of passion/enthusiasm, move on to the next set of questions. Try to spend a maximum of 5 minutes on this section.
+> 你正在寻找一个当他们讨论他们以往的项目或者兼职项目是充满激情和热情的候选人, 他们表现出对软件开发的热情, 这是他们是否有能力满足您的要求的一个很好的指标. 一旦你平息了候选人的紧张情绪或兴奋状态，那么继续下一组问题吧, 这一组问题上最多花费5分钟.
 
-* Tell us about your most recent project.
-* Do you ever do any coding in your personal time (outside of work)?
-* Do you have an account on Github?
-  * If so, what are some examples of repos you follow?
-* Tell us what critical problems you have to handle in your latest projects?
-* Walk us through the process of creation of an application or website you've built.
-* Why did you get into development?
-* How many technical books did you read in the past year?
-* What was your favorite technical book in the past year? What did you learn from it?
-* What websites do you read regularly, related to development?
-* Do you maintain any open-source projects?
-* Do you code in your spare time?
-* Do you love programming, or do you do it for the money?
-* Have you accomplished anything important in your career yet? Do you want to?
-* What would make you feel that you have done something important?
-* What's your favorite programming language? Why?
-* If you could add one feature to your favorite language, what would it be? Why?
-* If you could remove one feature from it, what would it be? Why?
-* Suppose you could design your dream job that you'll be starting on Monday. It's at your ideal company with your ideal job title and salary. All you have to do is tell them what you want to do at your job and you can have it. What does your job entail? (Thanks! [nczonline](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/))
+* 谈一谈你最近做的项目.
+* 你是否在你的工作时间外写代码(做别的项目)?
+* 你在 Github 上有账号吗?
+  * 如果有的话, 你都关注一些什么项目?
+* 谈一下你最近的一个项目遇到的棘手的问题, 如何处理的?
+* 谈一下创建应用程序或网站的过程.
+* 你为什么想进入程序员这一行的?
+* 过去这一年你读过多少技术相关的书籍?
+* 过去这一年你最喜欢的技术书籍是什么? 你从中学到了什么?
+* 你会经常访问哪些与开发相关的技术网站?
+* 你有没有维护过什么开源项目?
+* 你在业余时间写代码吗?
+* 你喜欢编程吗, 还是仅仅因为它很赚钱?
+* 在你的职业生涯中你完成过什么重要的事情吗, 或者说想完成什么重要的事?
+* 你做过什么对你来说很重要的事情?
+* 你最喜欢的编程语言是什么, 为什么?
+* 如果你想给你最喜欢的编程语言增加一个功能, 你想添加什么? 为什么?
+* 如果你想让你最喜欢的编程语言移除一个功能, 你想去掉哪个? 为什么?
+* 假设周一你可以开始一份梦想的工作, 有着理想的职位和不错的薪水, 你所要做的就是告诉你的员工你要什么，你完全可以做到. 对于你而言这份工作意味着什么? (非常感谢! [原文链接](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/))
 
-## <a name='management'>Management</a>
+## <a name='management'>管理相关</a>
 
-* How to tackle a story/task which is difficult to estimate and with high risk?
-    - Investigate as early as possible
-    - Assign senior staffs on the problem
-    - More frequent update and more communication
-    - Report higher level supervisors to be aware of the situation
+> 基本来讲, 需要候选人营造一个良好的工作氛围, 让团队成员们愉快的工作, 并且有一个良好的发展方向和机会. 如果这些事都发生了, 可以向更高级别的经理和 HR 寻求解决方案.
 
-* How to react to unexpected/frequent requirement changes, considering PoC phase and production phase.
-    - For PoC:
-      - communicate with team members to let them know things are changing.
-      - Proving the solution is more important than perfect design/implementation. For requirement changes, argue for the reason. If it is the business reason, mostly we should follow. If it is the technical reason, we should discuss first and then make the decision.
-    - For production:
-      - Setup a process first. A requirement change should result in following reactions after re-plan (re-estimation):
-         - If it is not so urgent, keep working, change the future plan
-         - If it is urgent, either request resource (considering the
-ramp-up cost) or cut features
-         - If not possible, suggest delaying the release date
+* 如何处理难以估计和高风险故事/任务？?
+    - 及早调查
+    - 指派有经验的员工处理问题
+    - 及时更新, 及时反馈沟通
+    - 向上级主管报备, 及时反馈情况
 
-* How to keep a team stable with the limited offer. (How's about if you can't increase the compensation while the competitors can give more)
+* 如何处理频繁的需求变更, 从概念阶段到生产环境阶段.
+    - 对于概念阶段:
+      - 及时和团队成员沟通, 让他们知道哪些地方做了更改.
+      - 提供解决方案比完美的设计/实现更重要. 对于需求变更, 力求找到原因. 如果是商业原因, 大多情况下应该直接搞定. 如果是处于技术原因, 首先应该讨论然后做出决定.
+    - 对于生产阶段(线上环境):
+      - 首先应该确定一个计划. 重新重新评估需求变更, 从以下几个方面处理:
+         - 如果不是那么紧急, 那继续工作, 改变未来的计划
+         - 如果是很紧急的, 要么要求更多的人力财力资源, 要么就砍掉一些功能
+         - 如果完全搞不定, 建议推迟发布日期
 
-> Basically, setup a good working environment all the time, making team members work happily, and with good development direction and opportunity. If things really happen, resort to higher-level manager and HR to find out a solution.
+* 在岗位有限的情况下, 如何保持团队稳定. (比如竞争对手能给更多的报酬, 在不增加预算的情况下怎么处理)
 
-## <a name='javascript'>JavaScript</a>
+## <a name='javascript'>JavaScript 相关</a>
 
-* What is ECMAScript, JScript?
-* What is the Document Object Model(DOM)?
-* What's different between undefined and null? It's better to say something about why we need undefined if we have had null.
-* What's JavaScript strict mode? What's the intent for it? What does it do? How do you use it?
-* What is AJAX? What the workflow for AJAX? How to implement CORS? What's the difference synchronous and asynchronous for JavaScript?
-* Say something about JavaScript Encapsulation.
-* Say something about JavaScript Inheritance(Classical Versus Modern Inheritance).
-* What is Closure?
-* When and why you need to use `this` keyword?
-* How to handle cookie using JavaScript?
-* DOM manipulation – how to add, remove, move, copy, create, and find nodes.
-* As for JavaScript regex, what is greediness, lazy, negated character classes matching? How to write a regex to match `<script>greediness</script>`?
-* Events - how to use them and the major differences between IE and the DOM event models?
-* XMLHttpRequest – what it is, how to perform a complete GET request, how to detect errors?
-* JSON – what it is, why you'd want to use it, how to actually use it, implementation details?
-* Promise - what it is, and why we need that? What problems do it solve?
-* Using only a single event handler on the parent, detect a swipe left and a swipe right and alert() which direction was swiped.
-* Write an example of a closure in javascript. It doesn't matter what the code does, as long as it shows a closure is created.
-* Difference between `document.write` and `innerHTML`.
-* How `delete` operator works in JavaScript? What exactly can and cannot be deleted and why.
-* How does prototypal inheritance work?
-* What defines a closure?
-* How does the meaning of this keyword change?
-* How does one use to apply/bind/map/filter/call?
-* Say how would you describe the flow-control steps of this program?
+* 什么是 ECMAScript, JScript?
+* 什么是文档对象模型(DOM)?
+* undefined 和 null 的区别是什么? 如果有 null 的情况下, 最好说一些为什么我们需要 undefined.
+* 什么是 JavaScript 严格模式? 它有什么作用? 为什么要使用它?
+* 什么是 AJAX? AJAX 的工作流程是什么样的? 如何实现一个跨域 (CORS)? 在 JavaScript 中同步和异步有什么区别?
+* 谈一下 JavaScript 封装.
+* 谈一下 JavaScript 的继承(传统继承方式和现代继承方式).
+* 什么是闭包?
+* 什么时候我们需要使用 `this` 关键词? 为什么?
+* 如何使用 JavaScript 处理 cookie?
+* DOM 操作 – 如何添加/删除/移动/拷贝/创建/查找一个节点.
+* 对于 JavaScript 正则表达式而言, 什么是贪婪匹配/惰性匹配和字符名匹配? 如何用正则匹配出 `<script>greediness</script>`?
+* 事件(Events) - 如何使用它们? IE 和 DOM 事件模型之间的主要区别是?
+* 什么是 XMLHttpRequest, 如何使用它完成一个 GET 请求, 如何处理异常?
+* 什么是 JSON, 为什么你要使用它, 如何实际去使用它, 实现细节是?
+* 什么是 Promise, 为什么要用它? 它是解决什么问题的?
+* 在父元素上使用一个事件处理方法, 检测左滑动和右滑动, 并用 Alert() 打印出滑动的方向.
+* 写一个 JavaScript 闭包的例子. 代码实现什么功能不重要, 只需要展示出闭包何处创建的.
+* `document.write` 和 `innerHTML`的区别是什么.
+* JavaScript 中 `delete` 操作符用在什么地方? 什么是可以删除的, 什么是不可以删除的, 为什么?
+* 原型继承(prototypal inheritance)是如何工作的?
+* 是什么定义了闭包?
+* 如何改变 `this` 关键词?
+* 如何使用 apply/bind/map/filter/call?
+* 请你说下这段程序的流程控制是怎样的?
   ~~~JavaScript
   makeAjaxRequest( url, function(response){ alert( "Response: " + response ); } );
   ~~~
 
-* Write a factorial function.
-* Write a function that accepts a string then reverses it. Recursively is better.
+* 写一个阶乘函数.
+* 写一个函数它接收一个字符串并反转它. 使用递归最好.
   ~~~JavaScript
   function reverseString(str) {
     return str.split("").reverse().join("");
   }
 
-  // With Recursion
+  // 使用递归
   function reverseString(str) {
     return (str === '') ? '' : reverseString(str.substr(1)) + str.charAt(0);
   }
 
-  // In ES6, you have one more option
+  // 在 ES6 中, 你还可以这样
   [...str].reverse().join('')
   ~~~
 
-* Write a recursively map function.
+* 写一个 map 递归函数.
   ~~~JavaScript
   function map(arr, fn) {
     if (arr.length === 0) {
@@ -121,7 +119,7 @@ ramp-up cost) or cut features
   }
   ~~~
 
-* What is the difference between these four promises?
+* 下面四种 Promise 有什么不同?
   ~~~JavaScript
   doSomething().then(function () {
     return doSomethingElse();
@@ -142,7 +140,7 @@ ramp-up cost) or cut features
     .then(finalHandler);
   ~~~
 
-* What's the result of the below JavaScript snippet in the native implementation?
+* 下面这些原生 JavaScript 代码片段实现, 结果是?
   ~~~JavaScript
   setTimeout(function(){console.log("three");}, 0);
 
@@ -151,12 +149,12 @@ ramp-up cost) or cut features
   console.log("one");
   ~~~
 
-* Explain the use cases for, and differences between — `bind`, `apply` and `call`.
-* Explain event delegation and why it is useful.
-* What is the event loop?
-* How does hoisting work in JavaScript?
-* Which new JavaScript features are you most excited about and why?
-* Prototypal inheritance is so cool for JavaScript especially when trying to keep code DRY and maintainable, but do you know what's the output for the code below?
+* 解释一下 `bind` `apply` `call` 的使用场景, 以及他们之前的区别?
+* 解释一下事件代理, 为什么它很有用?
+* 什么是事件循环(event loop)?
+* JavaScript 变量提升是如何发生的?
+* 在新版的 JavaScript 中让你最兴奋的是哪个功能, 为什么?
+* 在 JavaScript 中原型继承是非常酷的特别是当需要保持代码简洁和可维护性时, 那么说下下面代码的输出结果吧?
   ~~~JavaScript
   var parent = {
     get: function fn() {
@@ -173,15 +171,15 @@ ramp-up cost) or cut features
   console.log(child.get());
   console.log(grandchild.get());
   ~~~
-* What is a pure function?
+* 什么是纯函数(Pure Function)?
 
-  A pure function is a function which:
-    * Given the same input, will always return the same output.
-    * Produces no side effects.
-    * Relies on no external state.
+  纯函数有以下特点:
+    * 给一个相同的参数, 总是输出一样的结果.
+    * 没有副作用.
+    * 没有依赖.
 
-* How to determine if the value is a number? (Side note: `typeof value === 'number'` would gives the set of numbers **AND** `NaN` )
-* How to get the type for the values below:
+* 如何判断一个值是否是数字? (注意: `typeof value === 'number'` 这个表达式输入数字和 `NaN` 都会成立)
+* 如何获取下面这些值的类型:
 
 ```
  NaN, 0, 1, Infinity,                // numbers
@@ -195,7 +193,7 @@ ramp-up cost) or cut features
  {[Symbol.toStringTag]: 'Custom'}    // @@ToStringTag
 ```
 
-* In what order should the logs appear?
+* 下面这些日志的输出顺序是这样的?
 
 ```
 console.log('script start')
@@ -215,43 +213,43 @@ console.log('script end')
 
 ## <a name='html'>HTML</a>
 
-* What is `<!DOCTYPE>` tag? How to use it?
-* What's the difference between childNodes[] and children[]?
-* DOM structure – how nodes are related to one another and how to traverse from one to the next.
-* DOM manipulation – how to add, remove, move, copy, create, and find nodes.
-* Strict vs quirks modes – how to trigger each and why this matters.
-* Block vs inline elements – how to manipulate using CSS, how they effect things around them and your ability to style them.
-* Floating elements – how to use them, troubles with them, and how to work around the troubles.
-* HTML vs. XHTML(1.x&2) – how they're different, why you might want to use one over the other.
-* List semantic elements in HTML5 as much as you can and why we need them.
-* Write a 'Hello, Word!' html page. (whether get to know the necessary HTML tag for one page, DOCTYPE definition,...).
-* What's difference between XHTML 1.x and HTML4?
-* What's the difference between h1~h6? How's about the difference between ul and ol?
-* Have you ever got a chance to use dl, dt, dd? What's the semantic for them?
-* What's the common properties used with `form`?
-* What's going on if we don't set the `type` property for `input` element?
-* What's the use case if we set the `type` property as `image` for `input` element?
+* 什么是 `<!DOCTYPE>` 标签? 如何使用它?
+* childNodes[] 和 children[] 有什么区别?
+* DOM 结构 – 节点之间如何关联, 如何遍历一个节点到下一个节点.
+* 操作 DOM – 如何添加/移除/移动/复制/创建/查找节点?
+* 标准盒子模型和怪异盒子模型(Quirks Modes) – 如何在它们之间切换, 为什么这很重要?
+* 块级元素和行内元素 – 如何使用 CSS 改变它们的状态, 它是如何影响周边元素的, 你如何用样式控制它们?
+* 浮动元素 – 如何使用它们, 它带来了一些糟糕影响那么如何解决它们.
+* HTML 和 XHTML(1.x&2) – 它们有什么不同, 你会使用它们中的哪一个, 为什么?
+* 尽可能多的列出一些 HTML5 的标签, 以及为什么你需要使用它们.
+* 写一个 'Hello, Word!' 页面. (是否了解一个页面所必须的标签,比如定义 DOCTYPE 等等..).
+* XHTML 1.x 和 HTML4 有什么不同?
+* h1~h6 标签有什么不同? ul 和 ol 标签有什么区别?
+* 你有没有用过 dl, dt, dd? 它们的具体语义是什么?
+* `form` 常用的属性有哪些?
+* `input` 元素如果不设置 `type` 会怎样? 
+* 哪些场景使用 `input` 会给它的 的 `type` 设置成 `image`?
 
 ## <a name='css'>CSS</a>
 
-* What is CSS?
-* List the CSS hacks as much as you can.
-* What's the possible values of `display` property? What is block and inline element and what the difference between them? List block and inline tags as much as you can.
-* The box model - how margin, padding, and border are related and the difference between border-box (standards mode) and content-box (old Internet Explorer) sizing.
-* List CSS Layout.
-* What is CSS stack and say something about it?
-* List the browser compatibility problems you have ever used or known.
-* List the possible values for `position` property and the result for every value.
-* List the possible values for `display` property and the result for every value.
-* What is the distinguishing feature provided by `display: inline-block`?
-* Say something about CSS3, such as transition, animation, transform, etc..
-* What's box-sizing and when you need it?
-* What's CSS transform?
-* Say something about Flexbox: why we need it? how does it work? how we use it?
-* Why Table are bad for layout?
-* What's use case for float property? How to clear float?
-* What CSS selector have you ever used?
-* What's the difference between `cssRules` and `rules`
+* 什么是 CSS?
+* 尽可能多得列出你知道的 CSS hacks 技巧.
+* `display` 这个属性它的值可能有哪些? 什么是块级元素和行内元素, 它们之间的区别是什么? 尽可能多得列出你知道的行内元素和块级元素.
+* 盒子模型 - margin, padding, and border 在 border-box (standards mode) 和 content-box (old Internet Explorer)之间的区别是什么.
+* 列出一些 CSS 的布局方式.
+* 什么是 CSS stack, 你谈谈对他的理解?
+* 列出一些浏览器的兼容性问题, 你曾遇到过的或者你知道的.
+* 列出 `position` 的值有哪些, 以及每种值对应的效果是什么.
+* 列出 `display` 的值有哪些, 以及每种值对应的效果是什么.
+* `display: inline-block` 有什么作用?
+* 谈一谈 CSS3, 比如 transition, animation, transform, 等等..
+* 什么是 box-sizing , 什么时候会用到它?
+* 什么是 CSS transform?
+* 谈一谈 Flexbox, 为什么我们要用它? 它是如何工作的, 如何使用它?
+* 为什么说 Table 布局是一种糟糕的布局方式?
+* 什么情况下需要用到浮动属性, 如何清除浮动?
+* 你用过哪些 CSS 选择器?
+* `cssRules` 和 `rules` 的区别是什么?
 
 ## <a name='http'>HTTP</a>
 
