@@ -61,7 +61,7 @@
 
 * 在岗位有限的情况下, 如何保持团队稳定. (比如竞争对手能给更多的报酬, 在不增加预算的情况下怎么处理)
 
-## <a name='javascript'>JavaScript 相关</a>
+## <a name='javascript'>JavaScript</a>
 
 * 什么是 ECMAScript, JScript?
 * 什么是文档对象模型(DOM)?
@@ -149,7 +149,7 @@
   console.log("one");
   ~~~
 
-* 解释一下 `bind` `apply` `call` 的使用场景, 以及他们之前的区别?
+* 解释一下 `bind` `apply` `call` 的使用场景, 以及他们的区别?
 * 解释一下事件代理, 为什么它很有用?
 * 什么是事件循环(event loop)?
 * JavaScript 变量提升是如何发生的?
@@ -266,26 +266,26 @@ console.log('script end')
 * 为什么要把样式表文件放在页面顶部, JS 文件放在页面底部?
 * HTTP request/response 消息包含哪些内容?
 
-## <a name='problem-solving'>Problem Solving</a>
+## <a name='problem-solving'>处理问题能力相关</a>
 
-* Classic beginner programming problem: the guessing game. Here’s how it works: Our program will generate a random integer between one and a hundred. It will then prompt us to enter a guess. Upon entering our guess, it will tell us if we’re too low or too high. Once we guess correctly, it will congratulate us.
-* Add a `unique` method for Array in order to produce a duplicate-free version of the array using [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) or [with ES5 compatible JS](https://jsfiddle.net/starandtina/b6hbtbhz/).
-* Implement deep clone for inheritance by copying properties from the object using Vanilla JS.
-* Control the max-length of input element using JavaScript, if it extends the max length and then set the border of input element as red.
-* Change all elements with className of `test` to the yellow background using JavaScript or jQuery.
-* Write a marquee program using JavaScript.
-* Translate your hexadecimal color value to RGB.
-* Generate random numbers that are consecutively unique.
-* Find the index of the smallest element in a JavaScript array.
-* Check whether a value is an integer in JavaScript.
-* [Make it work:](https://jsfiddle.net/starandtina/et7dnge8/)
+* 经典初学者编程问题: 猜谜游戏. 下面是它的工作原理: 我们的程序会随机生成一个1到100之间的整数. 它会要我们输入一个数来猜, 程序会告诉我们输入的数字太大了或者太小了, 一旦猜对了, 它会恭喜我们.
+* 给数组添加一个 `unique` 方法，以便生成一个无重复版本的数组使用 [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) 或者 [with ES5 compatible JS](https://jsfiddle.net/starandtina/b6hbtbhz/).
+* 使用 Vanilla JS 从对象复制属性来实现深度克隆继承.
+* 使用 JavaScript 来控制一个 input 的最大长度, 如果超出了最大长度, 那么就把输入框标红.
+* 使用 JavaScript 或者 jQuery 改变所有类名是 `test` 的元素, 背景改成黄色.
+* 使用 JavaScript 写一个跑马灯效果.
+* 使用 JavaScript 吧 16进制颜色代码转成 RGB 颜色代码.
+* 生成一个连续唯一的随机数.
+* 查找 JavaScript 数组中最小数的索引.
+* 使用 JavaScript 检查一个数是否是整数.
+* [实现下面代码的功能:](https://jsfiddle.net/starandtina/et7dnge8/)
 
   ~~~JavaScript
   [1, 2, 3].duplicate(); // [1, 2, 3] => [1, 2, 3, 1, 2, 3]
   ~~~
-* Checking whether a value is `NaN` in JavaScript?
-* How to load CSS/JavaScript files asynchronously? If you know that, then write `loadCSS` and `loadJS` function in order to load CSS/JavaScript files asynchronously.
-* Make the codes below work as expected with a simple template engine.
+* 在 JavaScript 中如何检查一个值是否是 `NaN` ?
+* 如何异步载入 CSS/JavaScript 文件? 如果你知道怎么实现, 那么写一个 `loadCSS` 和 `loadJS` 函数.
+* 写一个简单的模板引擎, 使下面的代码按照预期工作:
 
   ~~~JavaScript
   var tpl = template('<p>hey there {{ name }}</p>');
@@ -293,35 +293,35 @@ console.log('script end')
   div.innerHTML = tpl({ name: 'Neo' });
   document.body.appendChild(div);
   ~~~
-* Define a `spacify` function which takes a string as an argument, and returns the same string but with each character separated by a space, for example:
+* 定义一个 `spacify` 函数, 它使用字符串作为参数并且原样返回相同的结果, 只是每个字符之间多了一个空格, 举个栗子:
 
   ~~~JavaScript
   spacify('hello world') // => 'h e l l o w o r l d'
   ~~~~
-  If it's right, the follow-up question to this, is to place the `spacify` function directly on the String object, for example:
+  如果答上了, 那么继续实现以下这个函数, 把 `spacify` 函数直接放在字符串对象上, 举个栗子:
 
   ~~~JavaScript
   'hello world'.spacify();
   ~~~~
-* [Implement collection pivot](https://jsfiddle.net/starandtina/e6n5h/): Pivot means put all the things left of the middle element right, and vice versa,
+* [实现一个 Pivot 函数](https://jsfiddle.net/starandtina/e6n5h/): Pivot 意思就是总是把位于中间元素右边的值放到左边, 反之亦然
 
   ~~~JavaScript
   Eg: Pivot {A, B, C} should give {C, B, A}
         Pivot { 1, 2, 3, 4 } should give { 3, 4, 1, 2 }
         Pivot { 1, 2, 3, 4, 5, 6, 7 } should give { 5, 6, 7, 4, 1, 2, 3 }
         Pivot { 11, 8, 45 } should give { 45, 8, 11 }
-     Hint: What type should input/output be? Why?
+     提示: 应该输入输出什么类型? 为什么?
   ~~~
-* Provide a functional version of `each` or `forEach` used to iterates over a list of elements, yielding each in turn to an iteratee function.
-* Provide a functional version of `function.apply`.
-* Partially apply a function by filling in any number of its arguments, without changing its dynamic this value.
-* Implement _currying_ in which we could pre-fill arguments to a function before it's executed.
-* Write your own function composition, returns the composition of a list of functions, where each function consumes the return value of the function that follows. In math terms, composing the functions `f()`, `g()`, and `h()` produces `f(g(h()))`.
-* Shuffle an array of numbers using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
-* Provide a polyfill of string trim function.
-* Get the max or the min in an array of numbers.
-* An HTML escaper function.
-* [Find an item by property in an array](https://gist.github.com/starandtina/267f2935c2f3f1553ee5).
+* 提供一个函数版的 `each` 或者 `forEach`, 用于迭代元素列表, 每个元素依次产生一个迭代函数.
+* 提供一个函数版的 `function.apply`.
+* 通过填充任意数量的参数来使用函数, 而不改变其动态的这个值.
+* 实现 _currying_, 可以在函数执行之前预先填充参数.
+* 编写一个合并函数，返回一个合并列表的函数, 其中每个函数返回里面函数的返回值, 用数学术语来说, 合并三个函数 `f()`, `g()`, 和 `h()`最后结果为 `f(g(h()))`.
+* 使用 [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) 实现一个数字数组洗牌算法.
+* 提供一个字符串 trim 增强函数.
+* 获取一个数字数组中的最大值和最小值.
+* 写一个过滤 HTML 危险字符(`<`, `>` 等..)的函数.
+* [按数组中的属性查找元素](https://gist.github.com/starandtina/267f2935c2f3f1553ee5).
 
 ## <a name='algorithms'>Algos, Data Structures, & Computer Science Fundamentals</a>
 
@@ -420,7 +420,7 @@ It is because setState alters the state and causes rerendering. This can be an e
 
 ## <a name='general-evaluation-questions'>General Evaluation Questions</a>
 
-> Here are some general evaluation questions in terms of technical interview for checking candidate's background quickly
+> 以下是技术面试中一些常见的评估问题, 以便快速检查应聘者的背景
 
 ~~~
 function foo(a, b, c) {
