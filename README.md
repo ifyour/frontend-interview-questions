@@ -418,7 +418,7 @@ It is because setState alters the state and causes rerendering. This can be an e
 
 - What's new in **React 16**?
 
-## <a name='general-evaluation-questions'>General Evaluation Questions</a>
+## <a name='general-evaluation-questions'>快速评估</a>
 
 > 以下是技术面试中一些常见的评估问题, 以便快速检查应聘者的背景
 
