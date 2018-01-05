@@ -174,9 +174,9 @@
 * 什么是纯函数(Pure Function)?
 
   纯函数有以下特点:
-    * 给一个相同的参数, 总是输出一样的结果.
-    * 没有副作用.
-    * 没有依赖.
+    * 给一个相同的参数, 总是输出一样的结果
+    * 没有副作用
+    * 没有依赖
 
 * 如何判断一个值是否是数字? (注意: `typeof value === 'number'` 这个表达式输入数字和 `NaN` 都会成立)
 * 如何获取下面这些值的类型:
@@ -195,7 +195,7 @@
 
 * 下面这些日志的输出顺序是这样的?
 
-```
+```javascript
 console.log('script start')
 setTimeout(function() {
   console.log('setTimeout')
@@ -253,18 +253,18 @@ console.log('script end')
 
 ## <a name='http'>HTTP</a>
 
-* List HTTP status codes as much as you can.
-* What's the meaning for HTTP status of 200, 302, 304, 404, 500, 503.
-* Introduce something about Web Cache or HTTP caching, such as what's Conditional GET Requests? Etags? Expires? Cache-Control?
-* What's the difference between `Get` and `Post`  method?
-* What's the difference between HTTP stateless and `Connection:keep-alive`?
-* What's the message structure for HTTP Request/Response?
-* What's the difference between HTTP status code 301 and 302? How search engines handle them?
-* What's the HTTP Header related with cache? What's the usage for them?
-* When you're sending an Ajax request, how to judge whether full server response has been received and it's OK for you to continue processing it?
-* Why we could avoid local cache when using CTRL+F5 or refresh button to reload the page?
-* Why we should put stylesheets at the top and put the scripts at the Bottom?
-* What an HTTP request/response message packet includes?
+* 尽可能多的列出你知道的 HTTP 状态码.
+* 这些状态码有什么含义? 200, 302, 304, 404, 500, 503.
+* 谈一谈 Web 缓存或者 HTTP 缓存, 例如什么是条件 GET 请求? Etags/Expires/Cache-Control 这些具体有什么含义?
+* `Get` 和 `Post` 请求有什么区别?
+* 无状态 HTTP (HTTP stateless) 和 `Connection:keep-alive`的区别是什么 ?
+* HTTP Request/Response 的消息结构式怎样的?
+* HTTP 状态码 301 和 302 的区别是什么? 搜索引擎是如何处理它们的?
+* 什么是 HTTP 响应头缓存? 它们的用法是什么?
+* 当您发送Ajax请求时, 如何判断已收到完整的服务器响应以便进行进一步处理?
+* 为什么我们要用 <kbd>Ctrl</kbd> + <kbd>F5</kbd>或刷新按钮来避免一些本地缓存?
+* 为什么要把样式表文件放在页面顶部, JS 文件放在页面底部?
+* HTTP request/response 消息包含哪些内容?
 
 ## <a name='problem-solving'>Problem Solving</a>
 
