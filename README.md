@@ -343,7 +343,7 @@ console.log('script end')
 
 * 合并排序 (Merge sort) 的时间复杂度是 O(n*log n), 它是一种有效且稳定的排序算法之一. 这也是 Firefox 和 Safari 使用合并排序来实现 `Array.prototype.sort()` 的原因. 请你使用合并排序来实现 `Array.prototype.sort()` 的功能.
 * 使用 JavaScript 实现一个二分法搜索(Binary search).
-* 使用 JavaScript 实现一个函数, 它返回一个 n 条边的帕斯卡三角[Pascal’s Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle).
+* 使用 JavaScript 实现一个函数, 它返回一个 n 层的杨辉三角([Pascal’s Triangle](https://zh.wikipedia.org/wiki/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E5%BD%A2)).
 * 使用递归记录一个长度为 n 的斐波那契数列.(注意：只需要记录而不是计算结果)
 
   ~~~JavaScript
