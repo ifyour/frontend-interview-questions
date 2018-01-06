@@ -280,10 +280,10 @@ console.log('script end')
 
 ## <a name='problem-solving'>处理问题能力相关</a>
 
-* 经典初学者编程问题: 猜谜游戏. 下面是它的工作原理: 我们的程序会随机生成一个1到100之间的整数. 它会要我们输入一个数来猜, 程序会告诉我们输入的数字太大了或者太小了, 一旦猜对了, 它会恭喜我们.
-* 给数组添加一个 `unique` 方法，以便生成一个无重复版本的数组使用 [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) 或者 [with ES5 compatible JS](https://jsfiddle.net/starandtina/b6hbtbhz/).
+* 经典初学者编程问题: 猜谜游戏. 游戏规则是: 我们的程序会随机生成一个1到100之间的整数. 它会要我们输入一个数来猜, 程序会告诉我们输入的数字太大了或者太小了, 一旦猜对了, 它会恭喜我们.
+* 给数组添加一个 `unique` 方法，以便生成一个无重复版本的数组使用 [Vanilla JS](https://jsfiddle.net/starandtina/87TSF/) 或者 [ES5](https://jsfiddle.net/starandtina/b6hbtbhz/).
 * 使用 Vanilla JS 从对象复制属性来实现深度克隆继承.
-* 使用 JavaScript 来控制一个 input 的最大长度, 如果超出了最大长度, 那么就把输入框标红.
+* 使用 JavaScript 来控制一个 input 的最大长度, 如果超出了最大长度就把输入框标红.
 * 使用 JavaScript 或者 jQuery 改变所有类名是 `test` 的元素, 背景改成黄色.
 * 使用 JavaScript 写一个跑马灯效果.
 * 使用 JavaScript 把16进制颜色代码转成 RGB 颜色代码.
@@ -310,7 +310,7 @@ console.log('script end')
   ~~~JavaScript
   spacify('hello world') // => 'h e l l o w o r l d'
   ~~~~
-  如果答上了, 那么继续实现以下这个函数, 把 `spacify` 函数直接放在字符串对象上, 举个栗子:
+  如果答上了, 那么继续实现以这个函数, 把 `spacify` 函数直接放在字符串对象上, 举个栗子:
 
   ~~~JavaScript
   'hello world'.spacify();
