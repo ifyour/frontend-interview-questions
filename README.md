@@ -1,6 +1,6 @@
 一份前端面试问题清单.
 
-# 目录
+# <a name='table-of-contents'>目录</a>
 
   1. [常规问题/破冰](#general)
   1. [管理相关](#management)
@@ -39,6 +39,8 @@
 * 如果你想让你最喜欢的编程语言移除一个功能, 你想去掉哪个? 为什么?
 * 假设周一你可以开始一份梦想的工作, 有着理想的职位和不错的薪水, 你所要做的就是告诉你的员工你要什么，你完全可以做到. 对于你而言这份工作意味着什么? (非常感谢! [原文链接](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/))
 
+[⬆ 回到顶部](#table-of-contents)
+
 ## <a name='management'>管理相关</a>
 
 > 基本来讲, 需要候选人营造一个良好的工作氛围, 让团队成员们愉快的工作, 并且有一个良好的发展方向和机会. 如果这些事都发生了, 可以向更高级别的经理和 HR 寻求解决方案.
@@ -60,6 +62,8 @@
          - 如果完全搞不定, 建议推迟发布日期
 
 * 在岗位有限的情况下, 如何保持团队稳定. (比如竞争对手能给更多的报酬, 在不增加预算的情况下怎么处理)
+
+[⬆ 回到顶部](#table-of-contents)
 
 ## <a name='javascript'>JavaScript</a>
 
@@ -211,6 +215,8 @@ console.log('script end')
 
 ```
 
+[⬆ 回到顶部](#table-of-contents)
+
 ## <a name='html'>HTML</a>
 
 * 什么是 `<!DOCTYPE>` 标签? 如何使用它?
@@ -229,6 +235,8 @@ console.log('script end')
 * `form` 常用的属性有哪些?
 * `input` 元素如果不设置 `type` 会怎样? 
 * 哪些场景使用 `input` 会给它的 的 `type` 设置成 `image`?
+
+[⬆ 回到顶部](#table-of-contents)
 
 ## <a name='css'>CSS</a>
 
@@ -251,6 +259,8 @@ console.log('script end')
 * 你用过哪些 CSS 选择器?
 * `cssRules` 和 `rules` 的区别是什么?
 
+[⬆ 回到顶部](#table-of-contents)
+
 ## <a name='http'>HTTP</a>
 
 * 尽可能多的列出你知道的 HTTP 状态码.
@@ -265,6 +275,8 @@ console.log('script end')
 * 为什么我们要用 <kbd>Ctrl</kbd> + <kbd>F5</kbd>或刷新按钮来避免一些本地缓存?
 * 为什么要把样式表文件放在页面顶部, JS 文件放在页面底部?
 * HTTP request/response 消息包含哪些内容?
+
+[⬆ 回到顶部](#table-of-contents)
 
 ## <a name='problem-solving'>处理问题能力相关</a>
 
@@ -323,6 +335,8 @@ console.log('script end')
 * 写一个过滤 HTML 危险字符(`<`, `>` 等..)的函数.
 * [按数组中的属性查找元素](https://gist.github.com/starandtina/267f2935c2f3f1553ee5).
 
+[⬆ 回到顶部](#table-of-contents)
+
 ## <a name='algorithms'>算法/数据结构/计算机基础相关</a>
 
 > 算法是每一个计算机应用的核心, 并且算法是目前计算机科学领域中比较活跃的一部分. 每一个计算机科学家和专业的程序员都应该掌握的基本的算法: 经常使用算法有效的组织和检索数据结构, 以及数据建模, 理解并解决各种算法问题. 我们期望所面试的候选人在这方面是非常擅长的.
@@ -346,6 +360,8 @@ console.log('script end')
     return b.length - a.length;
   })[0].length;
   ~~~
+
+[⬆ 回到顶部](#table-of-contents)
 
 ## <a name='react'>React</a>
 
@@ -417,6 +433,8 @@ It is because setState alters the state and causes rerendering. This can be an e
 
 - What's new in **React 16**?
 
+[⬆ 回到顶部](#table-of-contents)
+
 ## <a name='general-evaluation-questions'>快速评估</a>
 
 > 以下是技术面试中一些常见的评估问题, 以便快速检查应聘者的背景
@@ -482,6 +500,8 @@ var a = 2;
 
 bar();
 ~~~
+
+[⬆ 回到顶部](#table-of-contents)
 
 ## License
 
