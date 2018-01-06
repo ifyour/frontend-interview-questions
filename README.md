@@ -286,8 +286,8 @@ console.log('script end')
 * 使用 JavaScript 来控制一个 input 的最大长度, 如果超出了最大长度, 那么就把输入框标红.
 * 使用 JavaScript 或者 jQuery 改变所有类名是 `test` 的元素, 背景改成黄色.
 * 使用 JavaScript 写一个跑马灯效果.
-* 使用 JavaScript 吧 16进制颜色代码转成 RGB 颜色代码.
-* 生成一个连续唯一的随机数.
+* 使用 JavaScript 把16进制颜色代码转成 RGB 颜色代码.
+* 生成一个每项唯一的随机数.
 * 查找 JavaScript 数组中最小数的索引.
 * 使用 JavaScript 检查一个数是否是整数.
 * [实现下面代码的功能:](https://jsfiddle.net/starandtina/et7dnge8/)
